@@ -1,0 +1,109 @@
+p 
+{
+	font-family: Lora;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 30px;
+	margin-bottom: 1em;
+}
+p:first-child
+{
+	font-size: 22px;
+}
+h1, h2
+{ 
+	font-family: Roboto;
+	font-weight: bold;
+}
+h1 { font-size: 36px; text-align: center; margin: 1em 0 .5em; }
+h2 { font-size: 26px; margin: 1.5em 0 .5em; }
+ul {
+    list-style-image: url(https://pro-kotikov.ru/wp-content/uploads/2018/08/lapa-4.svg);
+	padding-left: 4em;
+}
+li 
+{
+	font-family: Lora;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 30px;
+	font-size: 18px;
+}
+.article  
+{
+	width: 48%;
+	position: center;
+	margin-left: 26%;
+	margin-right: 26%;
+}
+.rel {
+	position: center;
+	margin-left: 130px;
+	display: block;
+	width: 100%;
+}
+.rel-image img
+{
+	display: block;
+}
+.rel-text 
+{
+display: inline-block;
+vertical-align: top;
+}
+a
+{
+	color: #191970;
+	text-decoration: none;
+	box-shadow: inset 0 -1px #D3D3D3;
+}
+a:hover
+{ 
+color: #D2691E; 
+}
+
+.header-img { 
+	max-height: 500px; 
+	margin-left: 15%;
+	margin-right: 15%;
+	}
+.menu {
+	background: #fff;
+	left: 0;
+	right: 0;
+	top: 0;
+	border-bottom: 1px solid rgba(213, 115, 0, 0.45);
+	box-shadow: 0px 0px 2px #D57300;
+	position: fixed;
+	width: 100%;
+}
+.menu-img { height: 65px; margin-left: 30px; float: left; }
+.menu-nav
+{
+	list-style: none;
+	float: right;
+}
+.menu-nav li {
+	display: inline-block;
+	font-family: Roboto;
+	padding-left: 15px;
+	padding-right: 30px;
+	} 
+.menu-nav li:after 
+{
+    content: url(arrow-down.png);
+	opacity: .5;
+	margin-left: 10px;
+}
+.menu-nav li:last-child:after { content:none; }
+.menu-nav a {
+	box-shadow: none; color: black; }
+.menu-nav a:hover { 
+color: #D2691E; 
+}
+
+.submenu {
+	display: none;
+	}
+.menu-nav li:hover .submenu {
+	display: block;}
